@@ -23,7 +23,7 @@ class MailerLite {
     /**
      * @var RestClient
      */
-    protected $restClient;
+    public $restClient;
 
     /**
      * @param string|null $apiKey
